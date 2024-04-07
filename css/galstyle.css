@@ -1,0 +1,23 @@
+
+body {
+
+  background: url('images/back.gif') no-repeat center center;
+  background-size: 1400px 700px;
+  background-position: 30%;
+  background-attachment: fixed;
+}
+
+img {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+img:hover {
+  filter: none; 
+  -webkit-filter: grayscale(0); 
+ 
+}

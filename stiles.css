@@ -1,0 +1,110 @@
+
+
+header{
+	width: 100%;
+	height: auto;
+	
+}
+.header-left,
+.header-right{
+	position: relative;
+	color: white;
+	float: left;
+}
+.header-left{
+	top: 9px;
+	width: 30%;
+}
+
+.header-right span{
+	position: relative;
+	width: 2em;
+	height: 2em;
+	background: rgba(255,255,255,.3);
+	-webkit-transition: all .3s ease;
+}
+
+
+.header-right{
+	width: 70%;
+	text-align: right;
+}
+#open{
+	display: none;
+}
+
+
+nav a{
+    color: #ff5722;
+ 
+}
+nav a:hover{
+    color: #009688;
+    text-decoration: none;
+}
+
+nav a{
+	position: relative;
+	display: inline-block;
+	text-decoration: none;	
+	font-size: 17px;
+	line-height: 40px;
+	padding: 0 2em;
+	-webkit-transition: all .3s ease;
+}
+
+.hover{
+	border: none;
+  outline: none;
+  color: white;
+
+  cursor: pointer;
+  border-radius: 49px 0px 49px 0px;
+-moz-border-radius: 49px 0px 49px 0px;
+-webkit-border-radius: 49px 0px 49px 0px;
+border: 0px solid #000000;
+  background:  linear-gradient(to right, rgba(255,119,0,1) 0%, rgba(255,119,0,1) 47%, rgba(255,243,8,1) 100%);	
+  font-size: 17px;
+  filter: blur(0.5px);
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.hidden-desktop{
+	display: none;
+}
+
+.header-left .logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.3em;
+    color: #ff5722;
+
+}
+
+
+
+/* Small monitor */
+@media (max-width: 979px){
+	nav a{
+		padding: 0 1.5em;
+	}
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.container{
+		width: 95%;
+	}
+	nav>a{
+		padding: 0 2em;
+	}
+	
+	.header-left,
+	.header-right{
+		width: 100%;
+		text-align: center;
+	}
+
+}
+ 
